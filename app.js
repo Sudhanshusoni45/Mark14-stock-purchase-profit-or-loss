@@ -24,9 +24,9 @@ function calculate(profitPerShare, noOfStocks) {
     divOutputRef.innerText = netPrice + " No pain no gain, No gain no pain";
   }
   if (netPrice > 0) {
-    divOutputRef.innerText = netPrice + " Kai Paisa";
+    divOutputRef.innerText = "Yay!! your Profit is " + netPrice;
   }
   if (netPrice < 0) {
-    divOutputRef.innerText = netPrice + " Hold Kar Bhai";
+    divOutputRef.innerText = "Your Loss is " + netPrice;
   }
 }
